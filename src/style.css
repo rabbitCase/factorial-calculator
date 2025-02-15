@@ -2,7 +2,7 @@
     text-align: center;
 }
 body{
-    background-image: url('res/image.jpg');
+    background-image: url('../res/image.jpg');
     background-size: cover;
 }
 h1{
