@@ -1,11 +1,10 @@
 
 body{
-    background-image: url('../res/image.jpg');
-    background-size: cover;
+    background-color: #101828;
 }
 h1{
     width: fit-content;
-    color: #444;
+    color: #ffa62b;
     text-align: center;
     border-radius: 15px;
     padding: 10px 25px;
@@ -13,7 +12,7 @@ h1{
     font-size: 60px;
     font-weight: 700;
     font-style: italic;
-    background-color: rgba(246, 246, 246, 0.552);
+    background-color: #4f4f4fee;
     box-shadow: 0 7px 8px 5px rgba(0, 0, 0, 0.2);
     margin: auto;
     text-shadow: rgb(216, 102, 20);
@@ -33,7 +32,7 @@ h1:active{
     text-align: center;
     padding-left: 10px;
     padding-top: 100px;
-    color: rgb(54, 54, 54);
+    color: #ffa62b;
 }
 .number-prompt .text{
     transition: color 0.3s ease, transform 0.3s ease;
@@ -47,7 +46,7 @@ h1:active{
     display: block;
     margin: auto;
     color: rgb(54, 54, 54);
-    background-color: rgba(246, 246, 246, 0.552);
+    background-color: rgba(206, 239, 116, 0.868);
     padding: 10px 30px;
     border:none;
     border-radius: 10px;
@@ -66,7 +65,7 @@ h1:active{
 .fact-text input {
     display: block;
     margin: auto;
-    background-color: rgba(255, 228, 196, 0.248);
+    background-color: #d9d9d9;
     width: 20%;
     font-weight: 700;
     text-align: center;
@@ -83,7 +82,7 @@ h1:active{
     line-height: 1.4;
     text-align: left;
     width: 400px;
-    color: rgb(54, 54, 54);
+    color: #fefded;
     font-weight: 500;
     font-size: 22px;
     border-radius: 10px;
@@ -102,7 +101,7 @@ h1:active{
     width: fit-content;
     height:fit-content;
     color: rgb(54, 54, 54);
-    background-color: rgba(246, 246, 246, 0.552);
+    background-color: rgba(206, 239, 116, 0.868);
     padding: 10px 10px;
     border: none;
     border-radius: 10px;

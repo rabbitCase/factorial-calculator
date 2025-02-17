@@ -1,0 +1,121 @@
+
+body{
+    background-image: url('../res/bg_img.jpg');
+    background-size: cover;
+}
+h1{
+    width: fit-content;
+    color: #444;
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px 25px;
+    font-family:'Times New Roman'; 
+    font-size: 60px;
+    font-weight: 700;
+    font-style: italic;
+    background-color: rgba(246, 246, 246, 0.552);
+    box-shadow: 0 7px 8px 5px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    text-shadow: rgb(216, 102, 20);
+    transition: transform 0.5s ease;
+}
+h1:hover{
+    transform: scale(1.005);
+}
+h1:active{
+    transform: scale(0.2);
+}
+
+.number-prompt{
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'roboto','Times New Roman';
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 100px;
+    color: rgb(54, 54, 54);
+}
+.number-prompt .text{
+    transition: color 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+}
+.number-prompt .text:hover{
+    color: rgb(243, 42, 42);
+    transform: translateY(-2px);
+}
+.fact-button button{
+    display: block;
+    margin: auto;
+    color: rgb(54, 54, 54);
+    background-color: rgba(246, 246, 246, 0.552);
+    padding: 10px 30px;
+    border:none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s ease, background-color 0.2s ease, box-shadow 0.9s ease;
+}
+.fact-button button:hover {
+    background-color: #d7b242; 
+    transform: scale(1.05) ;
+}
+.fact-button button:active {
+    transform: scale(0.9); 
+}
+.fact-text input {
+    display: block;
+    margin: auto;
+    background-color: rgba(255, 228, 196, 0.248);
+    width: 20%;
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+.fact-text input:hover{
+    transform: scale(0.99);
+}
+.info-text {
+    line-height: 1.4;
+    text-align: left;
+    width: 400px;
+    color: rgb(54, 54, 54);
+    font-weight: 500;
+    font-size: 22px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+    transition: color 0.3s ease;
+    
+}
+.info-text:hover{
+    color: rgb(255, 0, 0);
+}
+.sub-button{
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    width: fit-content;
+    height:fit-content;
+    color: rgb(54, 54, 54);
+    background-color: rgba(246, 246, 246, 0.552);
+    padding: 10px 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s ease, background-color 0.2s ease, box-shadow 0.9s ease;
+    
+}
+.sub-button:hover{
+    background-color: #d7b242;
+    transform: scale(1.1);
+}
+.sub-button:active {
+    transform: scale(0.9); 
+}
