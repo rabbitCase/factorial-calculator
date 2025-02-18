@@ -5,22 +5,25 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }
         return i * fact(i - 1);
     }
-    const button = document.getElementById("fact-button");
-    button.onclick = function() {
+    const valueSetter = (value) => document.getElementById("fact-text").value = value;
+    const button = document.querySelector("#fact-button");
+    button.addEventListener("click", () => {
         const x = document.getElementById("fact-text").value;
         if(!x){
-            document.getElementById("fact-text").value = `Please enter a number.`;
+            valueSetter("Please enter a number");
             return;
         }
-        if(isNaN(x)){
-            document.getElementById("fact-text").value = ``;
+        
+        else if(x<0){
+            valueSetter("Undefined!");
             return;
         }
-        if(x<0){
-            document.getElementById("fact-text").value = `Undefined!`;
-            return;
+
+        else{
+            valueSetter(null);
         }
+        
         const result= fact(x);
-        document.getElementById("fact-text").value = `Factorial of ${x} is ${result}.`;
-    };
+        valueSetter(`Factorial of ${x} is ${result}.`);
+    });
 });
