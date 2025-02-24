@@ -43,7 +43,7 @@ h1:active{
     color: rgb(243, 42, 42);
     transform: translateY(-2px);
 }
-.fact-button button{
+#fact-button{
     display: block;
     margin: auto;
     color: rgb(54, 54, 54);
@@ -54,14 +54,15 @@ h1:active{
     font-size: 16px;
     font-family: Arial, sans-serif;
     box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: transform 0.5s ease, background-color 0.2s ease, box-shadow 0.9s ease;
+    transition: transform 0.1s ease, background-color 0.7s ease, box-shadow 0.3s ease;
 }
-.fact-button button:hover {
+#fact-button:hover {
     background-color: #d7b242; 
-    transform: scale(1.05) ;
+    transform: scale(1.03) ;
+    box-shadow: 0 7px 8px 0 rgba(0.9, 0, 0, 0.5);
 }
-.fact-button button:active {
-    transform: scale(0.9); 
+#fact-button:active {
+    transform: scale(0.98); 
 }
 .fact-text input {
     display: block;
@@ -89,10 +90,11 @@ h1:active{
     border-radius: 10px;
     padding: 10px;
     margin: 0 auto;
-    transition: color 0.3s ease;
-    
 }
-.info-text:hover{
+.info-style{
+    transition: color 0.3s ease;
+}
+.info-style:hover{
     color: rgb(255, 0, 0);
 }
 .sub-button{
@@ -109,13 +111,13 @@ h1:active{
     font-size: 16px;
     font-family: Arial, sans-serif;
     box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: transform 0.5s ease, background-color 0.2s ease, box-shadow 0.9s ease;
+    transition: transform 0.1s ease, background-color 0.7s ease, box-shadow 0.9s ease;
     
 }
 .sub-button:hover{
     background-color: #d7b242;
-    transform: scale(1.1);
+    transform: scale(1.03);
 }
 .sub-button:active {
-    transform: scale(0.9); 
+    transform: scale(0.98); 
 }
