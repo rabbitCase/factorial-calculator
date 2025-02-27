@@ -4,15 +4,15 @@ body{
 }
 h1{
     width: fit-content;
-    color: #ffa62b;
+    color: rgb(54, 54, 54);
     text-align: center;
     border-radius: 15px;
     padding: 10px 25px;
-    font-family:'Times New Roman'; 
-    font-size: 60px;
-    font-weight: 700;
+    font-family: "Pacifico", serif; 
+    font-size: 50px;
+    font-weight: 500;
     font-style: italic;
-    background-color: #4f4f4fee;
+    background-color: rgba(206, 239, 116, 0.868);
     box-shadow: 0 7px 8px 5px rgba(0, 0, 0, 0.2);
     margin: auto;
     text-shadow: rgb(216, 102, 20);
@@ -27,12 +27,12 @@ h1:active{
 
 .number-prompt{
     font-size: 25px;
-    font-weight: 900;
-    font-family: 'roboto','Times New Roman';
+    font-weight: 500;
+    font-family: "Pacifico", serif;
     text-align: center;
     padding-left: 10px;
     padding-top: 100px;
-    color: #ffa62b;
+    color: #e89d35;
 }
 .number-prompt .text{
     transition: color 0.3s ease, transform 0.3s ease;
@@ -42,7 +42,7 @@ h1:active{
     color: rgb(243, 42, 42);
     transform: translateY(-2px);
 }
-.fact-button button{
+#fact-button{
     display: block;
     margin: auto;
     color: rgb(54, 54, 54);
@@ -50,23 +50,26 @@ h1:active{
     padding: 10px 30px;
     border:none;
     border-radius: 10px;
-    font-size: 16px;
-    font-family: Arial, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: "Pacifico", sans-serif;
     box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: transform 0.5s ease, background-color 0.2s ease, box-shadow 0.9s ease;
+    transition: transform 0.1s ease, background-color 0.7s ease, box-shadow 0.3s ease;
 }
-.fact-button button:hover {
+#fact-button:hover {
     background-color: #d7b242; 
-    transform: scale(1.05) ;
+    transform: scale(1.03) ;
+    box-shadow: 0 7px 8px 0 rgba(0.9, 0, 0, 0.5);
 }
-.fact-button button:active {
-    transform: scale(0.9); 
+#fact-button:active {
+    transform: scale(0.98); 
 }
 .fact-text input {
     display: block;
     margin: auto;
     background-color: #d9d9d9;
     width: 20%;
+    font-family: "Exo 2", serif;
     font-weight: 700;
     text-align: center;
     margin: auto;
@@ -82,16 +85,18 @@ h1:active{
     line-height: 1.4;
     text-align: left;
     width: 400px;
-    color: #fefded;
-    font-weight: 500;
+    color: #e89d35;
+    font-family: "Pacifico", serif;
+    font-weight: 400;
     font-size: 22px;
     border-radius: 10px;
     padding: 10px;
     margin: 0 auto;
-    transition: color 0.3s ease;
-    
 }
-.info-text:hover{
+.info-style{
+    transition: color 0.3s ease;
+}
+.info-style:hover{
     color: rgb(255, 0, 0);
 }
 .sub-button{
@@ -106,15 +111,16 @@ h1:active{
     border: none;
     border-radius: 10px;
     font-size: 16px;
-    font-family: Arial, sans-serif;
+    font-family: "Pacifico", sans-serif;
+    font-weight: 500;
     box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: transform 0.5s ease, background-color 0.2s ease, box-shadow 0.9s ease;
+    transition: transform 0.1s ease, background-color 0.7s ease, box-shadow 0.9s ease;
     
 }
 .sub-button:hover{
     background-color: #d7b242;
-    transform: scale(1.1);
+    transform: scale(1.03);
 }
 .sub-button:active {
-    transform: scale(0.9); 
+    transform: scale(0.98); 
 }
