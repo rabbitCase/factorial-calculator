@@ -5,25 +5,25 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }
         return i * fact(i - 1);
     }
-    const valueSetter = (value) => document.getElementById("fact-text").value = value;
+    const textBoxValueSetter = (value) => document.getElementById("fact-text").value = value;
     const button = document.querySelector("#fact-button");
     button.addEventListener("click", () => {
         const x = document.getElementById("fact-text").value;
         if(!x){
-            valueSetter("Please enter a number");
+            textBoxValueSetter("Please enter a number");
             return;
         }
         
         else if(x<0){
-            valueSetter("Undefined!");
+            textBoxValueSetter("Undefined!");
             return;
         }
 
         else{
-            valueSetter(null);
+            textBoxValueSetter(null);
         }
         
         const result= fact(x);
-        valueSetter(`Factorial of ${x} is ${result}.`);
+        textBoxValueSetter(`Factorial of ${x} is ${result}.`);
     });
 });
